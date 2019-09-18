@@ -1,0 +1,16 @@
+---
+layout: default
+title: Branding
+---
+
+<main class="index">
+  <h1 class="index__title">{{ page.title }}</h1>
+  <ul class="index__brand-container">
+    {% for brand in site.brands %}
+    <li class="index__brand-container__item">
+      <h3 class="index__brand-container__item__brand-title">{{ brand.title }}</h3>
+      <img class="index__brand-container__item__brand-image" src="{{ brand.src }}" alt="{{ brand.src }}" />
+    </li>
+    {% endfor %}
+  </ul>
+</main>

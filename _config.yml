@@ -1,0 +1,22 @@
+title: Brand
+
+collections:
+  brands:
+    output: true
+
+links:
+  - home:
+    name: Home
+    href: /
+  - about:
+    name: About
+    href: /about
+
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - node_modules
+    - vendor/bundle/
+    - vendor/cache/
+    - vendor/gems/
+    - vendor/ruby/
